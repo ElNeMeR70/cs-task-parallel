@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <AssemblyName>cs-task-parallel</AssemblyName>
+    <RootNamespace>task_parallel</RootNamespace>
+    <Description>Custom TaskScheduler with work-stealing thread pool</Description>
+    <Authors>Mahmoud ElNemer</Authors>
+    <PackageProjectUrl>https://github.com/ElNeMeR70/cs-task-parallel</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ElNeMeR70/cs-task-parallel</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>
